@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    padding: 0 4rem;
+}
+
+header{
+    position: fixed;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 15px 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+
+}
+
+.header .left{
+    width: 10%;
+}
+
+.header .left img{
+    width: 100%;
+}
+
+.header .right{
+    width: 70%;
+    text-align: right;
+
+}
+
+.header .right a{
+    color: #333333;
+    font-size: 20px;
+    padding: 20px 0 25px 40px;
+    transition: 0.4s;
+
+}
+
+.header .right a:hover{
+    color: blue;
+}
+
+#first{
+    background-image: url(https://getmasum.com/html-preview/nour/assets/img/slider/1.jpg);
+    padding: 10rem;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+
+}
+
+#first p{
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+#first h1{
+    font-size: 55px;
+    color: #ffffff;
+    margin-bottom: 50px;
+
+}
+
+#first a{
+    color: #ffffff;
+    font-size: 1rem;
+    background-color: #6168ff;
+    padding: 13px 30px;
+
+}
+
+#second{
+    padding: 5rem 0;
+}
+
+.second-all{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#second .left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 48%;
+
+
+}
+
+#second .second-all .left .icon i{
+    font-size: 35px;
+    color: #6168ff;
+    padding-bottom: 25px;
+    
+    
+
+}
+#second .left .icon h3{
+    color: #333333;
+    font-size: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+#second .left .icon p{
+    font-size: 20px;
+    color: #666666;
+    margin-bottom: 20px;
+    line-height: 30px;
+
+}
+
+
+
+#second .right{
+    width: 40%;
+
+}
+
+
+#second .right img{
+    width: 100%;
+}
+
+#third{
+    margin: 100px 0 ;
+}
+
+#third .text{
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+
+#third .text h2{
+    font-size: 1rem;
+    color: #6168ff;
+    margin-bottom: 15px;
+
+}
+
+#third .text p{
+    font-size: 27px;
+    color: #333333;
+    margin-bottom: 40px;
+}
+
+#third .foto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+#third .foto .box{
+    width: 30%;
+
+}
+
+#third .foto .up img{
+    width: 100%;
+    vertical-align: bottom;
+
+}
+
+#third .foto .down h4{
+    font-size: 20px;
+    border: 1px solid;
+    padding: 20px 0 20px 15px;
+    
+   
+}
+
+#fourth .top{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+
+}
+
+#fourth .top h2{
+    font-size: 1rem;
+    color: #6168ff;
+    margin-bottom: 15px;
+
+}
+
+#fourth .top p{
+    font-size: 27px;
+    color: #333333;
+    margin-bottom: 40px;
+}
+
+#fourth .bottom{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#fourth .box{
+    display: flex;
+    justify-content: space-between;
+    width: 31%;
+    background-color: #f4f9ff;
+    padding: 35px 35px 20px;
+    margin: 0 10px 30px;
+
+}
+
+#fourth .box .icon{
+    width: 20%;
+    color: #6168ff;
+    font-size: 50px;
+   
+    
+}
+
+#fourth .box .text{
+    width: 75%;
+    
+
+}
+
+#fourth .box .text h4{
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 15px;
+
+}
+
+#fourth .box .text p{
+    color: #666666;
+    font-size: 15px;
+    margin-bottom: 15px;
+    line-height: 20px;
+}
+
+#five .foto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+#five .top{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+
+}
+
+#five .top h2{
+    font-size: 1rem;
+    color: #6168ff;
+    margin-bottom: 15px;
+
+}
+
+#five .top p{
+    font-size: 27px;
+    color: #333333;
+    margin-bottom: 40px;
+}
+
+#five .box{
+    width: 31%;
+    margin: 10px;
+}
+
+#five .box img{
+    width: 100%;
+
+}
